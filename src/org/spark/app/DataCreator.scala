@@ -27,7 +27,7 @@ object DataCreator {
     sqlContext.sql("drop table if exists sample_db.data_partitioned")
     sqlContext.sql("drop table if exists sample_db.data_unpartitioned")
     sqlContext.sql("create external table sample_db.data_partitioned (name string, age int, gender string, address string, phone_num bigint) partitioned by"
-      + "(as_of_date string) STORED AS PARQUET location '/Users/ninad/tmp/hive/warehous/sample_partitioned'")
+      + "(as_of_date string) STORED AS PARQUET location '/Users/ninad/tmp/hive/warehouse/sample_partitioned'")
     sqlContext.sql("create external table sample_db.data_unpartitioned (name string, age int, gender string, address string, phone_num bigint)"
       + "ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' location '/Users/ninad/tmp/output' "
       + "")
