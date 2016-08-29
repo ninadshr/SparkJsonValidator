@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Tue Aug 23 13:01:50 EDT 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0156-b859-d775-000012c03c48 
-on database directory /Users/ninad/Documents/workspace/peter_insert_update/Spark-Scala/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@30508066 
+Thu Aug 25 13:43:36 EDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0156-c2cc-c97c-000012acc258 
+on database directory /Users/ninad/Code_Repo/boa_data_integrity/Spark-Scala/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@9408857 
 Loaded from file:/Users/ninad/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_92-b14
-user.dir=/Users/ninad/Documents/workspace/peter_insert_update/Spark-Scala
+user.dir=/Users/ninad/Code_Repo/boa_data_integrity/Spark-Scala
 os.name=Mac OS X
 os.arch=x86_64
 os.version=10.11.4
