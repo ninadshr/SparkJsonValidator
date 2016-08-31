@@ -46,6 +46,8 @@ object DataIntegrityTester {
   
  def doTrailerBasedValidations():Unit = {
    
+   
+   
  }
   
    def checkRowCount(textFile: RDD[(String,String)]) = {
